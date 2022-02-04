@@ -7,7 +7,7 @@ function start() {
     if (secCounter == 0 && minCounter != 0) {
       secCounter = 59;
       minCounter -= 1;
-      document.getElementById("min").innerHTML =  "";
+      document.getElementById("min").innerHTML =  minCounter + " min";
     }
     if (minCounter == 0 && secCounter == 0) {
       clearInterval(counter);
