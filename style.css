@@ -1,0 +1,35 @@
+  body {
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      margin-top: 4cm;
+      transition-duration: .6s;
+  }
+
+  p {
+      display: inline-block;
+      font-size: 33px;
+  }
+
+  #alert {
+      color: red;
+      transition-duration: .6s;
+      margin-top: 2cm;
+      font-weight: 600
+  }
+
+  button {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border: 0ch;
+      padding: 3mm;
+      transition-duration: .6s;
+      opacity: 1;
+      font-size: 16px;
+  }
+
+  button:hover {
+      color: white;
+      background-color: black;
+      transition-duration: .6s;
+      font-size: large;
+  }
